@@ -1,0 +1,979 @@
+﻿Key Word,Solution,Industry Trends,Key Words / Key Phrases,Qualifying/Discovery Questions
+Accela,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Accessibility Standards,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+ADA Compliance,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Approval Workflows,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Asset Disposition,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Asset Tagging,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Archive,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+"Alternative Text for
+Images",IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Automated Security Processes,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Audit Trail,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Automated Image Registration,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Ballot Printing,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+Backfile Scanning,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Banners / Posters,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Check Printing,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+Check Washing,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+Cloud Integration,Cloud Fax,"Enhanced Security Features: Public Sector organizations are increasingly adopting cloud fax solutions with advanced encryption and secure access controls to protect sensitive data.
+
+Cloud Fax services are being integrated into digital workflows, improving efficiency by eleiminating the need for manual handling of paper faxes.","Cloud Integration, Fax Audit Trails, Fax Encryption, HIPAA Compliant Fax, Secure Fax","What types of documents are you faxing?
+
+What are the main issues you face with your current faxing solution?
+
+How important is regulatory compliance in your document transmission processes?
+
+Do you need a fax solution that integrates with your MFPs?
+
+When can we schedule an analysis of your document workflow to assess your potential need for a Cloud Fax solution?"
+Competitive Solicitation,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Constituent Services,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Contract Compliance,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Cybersecurity,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Data Capture,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Data Breach,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Decorative Print,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+Device Deployment,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Device Implementation,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Device Maintenance,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Device Security Management,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Digital Label,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+Digital Mail,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Digital Press,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+Digitization,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Document Management,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Document Retention,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Assistive Technology,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Electronic Application,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Embellishment,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+End Point Management,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Encryption,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Endpoint Protection,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Flexible Media Handling,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Fax Audit Trails,Cloud Fax,"Enhanced Security Features: Public Sector organizations are increasingly adopting cloud fax solutions with advanced encryption and secure access controls to protect sensitive data.
+
+Cloud Fax services are being integrated into digital workflows, improving efficiency by eleiminating the need for manual handling of paper faxes.","Cloud Integration, Fax Audit Trails, Fax Encryption, HIPAA Compliant Fax, Secure Fax","What types of documents are you faxing?
+
+What are the main issues you face with your current faxing solution?
+
+How important is regulatory compliance in your document transmission processes?
+
+Do you need a fax solution that integrates with your MFPs?
+
+When can we schedule an analysis of your document workflow to assess your potential need for a Cloud Fax solution?"
+Fax Encryption,Cloud Fax,"Enhanced Security Features: Public Sector organizations are increasingly adopting cloud fax solutions with advanced encryption and secure access controls to protect sensitive data.
+
+Cloud Fax services are being integrated into digital workflows, improving efficiency by eleiminating the need for manual handling of paper faxes.","Cloud Integration, Fax Audit Trails, Fax Encryption, HIPAA Compliant Fax, Secure Fax","What types of documents are you faxing?
+
+What are the main issues you face with your current faxing solution?
+
+How important is regulatory compliance in your document transmission processes?
+
+Do you need a fax solution that integrates with your MFPs?
+
+When can we schedule an analysis of your document workflow to assess your potential need for a Cloud Fax solution?"
+Flexible Media Handling,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Hardware Storage,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+High-Speed Inkjet,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+HIPAA Compliance Fax,Cloud Fax,"Enhanced Security Features: Public Sector organizations are increasingly adopting cloud fax solutions with advanced encryption and secure access controls to protect sensitive data.
+
+Cloud Fax services are being integrated into digital workflows, improving efficiency by eleiminating the need for manual handling of paper faxes.","Cloud Integration, Fax Audit Trails, Fax Encryption, HIPAA Compliant Fax, Secure Fax","What types of documents are you faxing?
+
+What are the main issues you face with your current faxing solution?
+
+How important is regulatory compliance in your document transmission processes?
+
+Do you need a fax solution that integrates with your MFPs?
+
+When can we schedule an analysis of your document workflow to assess your potential need for a Cloud Fax solution?"
+In-Plant,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+In-line Finishing,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Inspections,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Invoice Capture,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+IT Hardware / Software Partnerships,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Limited Office Space,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Limited Purchasing Resources,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+"Line-of-Business Integration (ERP, HRIS)",IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Licensing,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+MFP Security,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Media Flexibility,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Mitigating Security Incidents,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+MICR Toner Technology,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+Multi Factor Authentication,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Offsite Storage,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Paperless Office,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Permitting,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Plotters,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Piggybacking,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Pre-Negotiated Contracts,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Preferred Vendors,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Protecting Sensitive Information,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Provisioning / Imaging / Configuring,Device Lifecycle Management,"Enhanced Compliance Requirements: Public sector organizations are increasingly focusing on device lifecycle management to ensure compliance with evolving cybersecurity and data protection regulations.
+
+Sustainability Initiatives: Public sector entities are prioritizing sustainable practices by extending device lifecycles, recycling, and responsibly disposing of outdated equipment.","Asset Disposition, Asset Tagging, Device Deployment, Device Implementation, Device Maintenance, Device Security Management, End Point Management, IT Hardware / Software Partnerships, Provisioning / Imaging / Configuring","How long did it take to deploy and how many resources did it require to deploy your current fleet of devices?
+
+What are the biggest challenges you face in managing your current fleet of devices from deployment to disposal?
+
+How do you ensure your devices comply with security and regulatory requirements?
+
+When can we schedule a white boarding session to map out your current processes?"
+Salesforce Software,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
+
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+
+Have you worked with Salesforce with any of your current applications?
+
+Are you and your constituents able to access the application status online including mobile devices?
+
+When can we schedule a white boarding session to map your current processes and identify potential improvements?"
+Screen Reader Compatibility,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Secure Fax,Cloud Fax,"Enhanced Security Features: Public Sector organizations are increasingly adopting cloud fax solutions with advanced encryption and secure access controls to protect sensitive data.
+
+Cloud Fax services are being integrated into digital workflows, improving efficiency by eleiminating the need for manual handling of paper faxes.","Cloud Integration, Fax Audit Trails, Fax Encryption, HIPAA Compliant Fax, Secure Fax","What types of documents are you faxing?
+
+What are the main issues you face with your current faxing solution?
+
+How important is regulatory compliance in your document transmission processes?
+
+Do you need a fax solution that integrates with your MFPs?
+
+When can we schedule an analysis of your document workflow to assess your potential need for a Cloud Fax solution?"
+Securing Endpoint and Devices,Layered Security,"Rise of AI: The increasing use of AI brings significant risks and opportunities, requiring public sector entities to adapt their cybersecurity strategies.
+
+Budget and Workforce Challenges: Budget constraints and difficulties in retaining skilled cybersecurity professionals continue to pose significant challenges for public sector organizations.","MFP Security, Automated Security processes, Cybersecurity, Data Breach, Encryption, Endpoint Protection, Hardware Storage, Mitigating Security Incidents, Multi Factor Authentication, Protecting Sensitive Information, Securing Endpoint and Devices, Security Compliance","What types of documents or information are being printed?
+
+What types of sensitive data does your organization handle daily?
+
+How are users authenticating at MFPs?
+
+What security settings do you have on your devices?
+
+When can we schedule a cyber security assessment with our layered security experts?"
+Secure Check Printing,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+Section 508,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Short-Run Capabilities,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Search and Retrieval,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Security Printing,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+State Contracts,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Turn-Around Times,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Variable Data Printing,Industrial Print,"Digital Printing Technologies: The adoption of advanced digital printing technologies is enabling faster production times, higher quality outputs, and greater customization options.
+
+Cost Efficiency and Resource Management: Public sector organizations are increasingly focusing on cost efficiency and better resource management by leveraging industrial print solutions.","Decorative Print, Digital Label, Digital Press, Embellishment, High-Speed Inkjet, In-Plant, Variable Data Printing, Varnish","Do you have inkjet needs?
+
+Tell me about your wide format printing needs and capabilities.
+
+Do you have need of embellishment capabilities? Digital?
+
+What types of substrates do you typically print on?
+
+Do you require flexibility in media types?
+
+When can we schedule a walk through of your print shop with a Industrial Print specialist?"
+Vehicle Registration,MICR,"Enhanced Security Measures: Public sector organizations are increasingly adopting MICR technology with advanced security features to prevent check fraud and ensure the integrity of financial transactions.
+
+Regulatory Compliance: There is a growing emphasis on ensuring MICR solutions comply with evolving regulatory standards, helping public sector entities maintain compliance and avoid penalties","Check Printing, MICR Toner Technology, Secure Check Printing, Security Printing, Check Washing, Vehicle Registration, Ballot Printing","Do you have check printing needs?
+
+Do you have any issues with documents being counterfeited?
+
+What specific security and compliance requirements do you need to meet for check printing?
+
+How many checks or negotiable documents do you print on a regular basis?
+
+When can we schedule a walk through to assess your MICR related printing needs?"
+VPAT (Voluntary Product Accessibility Template),IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
+Volume Discounting,Cooperative Contracts,"Increased Adoption of Cooperative Purchasing: Public sector organizations are increasingly leveraging cooperative purchasing agreements to achieve cost savings, streamline procurement processes, and enhance compliance.
+
+Risk Management: Public sector organizations are increasingly incorporating risk management strategies into cooperative contracts to mitigate potential disruptions and ensure continuity of services.","Competitive Solicitation, Contract Compliance, Limited Purchasing Resources, Piggybacking, Preferred Vendors, Pre-Negotiated Contracts, State Contracts, Volume Discounting","What does your typical procurement process look like?
+
+What is your experience with cooperative contracts?
+
+Which cooperative contracts are you most familiar with?
+
+What drives the decision to use a cooperative contract or to conduct your own RFP?
+
+Are you open to considering a proposal leveraging a cooperative contract?_"
+Varnish,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+White Toner,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
+Workflow Automation,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+
+How do you currently manage and store your physical documents?
+
+What is your process for retrieving your documents when requested?
+
+How important is quick access to your documents and data for your business operations?
+
+When can we schedule a white boarding session to analysis your document workflows?"
+Wide Format,Production Print,"Digital Transformation: Shift towards digital workflows is driving the adoption of advanced technologies that integrate seamlessly with digital systems, enhancing efficiency and reducing reliance on traditional print methods.
+
+Customization and On-Demand Printing: Growing demand for customized and on-demand printing solutions, allowing entities to produce materials as needed, reducing storage costs and minimizing excess inventory.","Flexible Media Handling, Media Flexibility, Short-Run Capabilities, Turn-around Times, Wide Format, Plotters, Banners / Posters, In-line Finishing, Automated Image Registration, White Toner, Reprographics Department","What types of documents are you primarily printing?
+
+What volumes of printing do you require daily, weekly or monthly?
+
+How do jobs get submitted?
+
+When can we schedule a walk-through with a production print specialist?
+
+Do you have files that we can use to print samples using KM PP devices?"
