@@ -1,7 +1,8 @@
 # keywords_and_solutions
+
 This is an interactive experience that helps sales reps navigate through key words and solutions.
 
-# Healthcare Solutions Finder
+# Key Words and Solutions Finder
 
 A web application that allows users to explore healthcare solutions and related keywords. The application provides a search interface with filtering capabilities to help users find relevant information.
 
@@ -67,8 +68,8 @@ Make sure to keep all files in the same directory with these exact filenames:
 ```
 /
 ├── index.html
-├── keywordsdetails.csv
-└── solutions_base_template_csv.csv
+├── csv-files/keywordsdetails.csv
+└── csv-files/solutions_base_template_csv.csv
 ```
 
 ## CSV Data Format
@@ -76,6 +77,7 @@ Make sure to keep all files in the same directory with these exact filenames:
 ### Keywords CSV (keywordsdetails.csv)
 
 The keywords CSV file should have the following columns:
+
 - Key Word
 - Solution
 - Industry Trends
@@ -85,6 +87,7 @@ The keywords CSV file should have the following columns:
 ### Solutions CSV (solutions_base_template_csv.csv)
 
 The solutions CSV file should have the following columns:
+
 - Solution Title
 - Long-Description
 - Short-Description
@@ -116,6 +119,7 @@ You can customize the application by modifying the following:
 ## Browser Compatibility
 
 The application works in all modern browsers:
+
 - Chrome
 - Firefox
 - Safari
@@ -127,4 +131,4 @@ If you encounter any issues or have questions, please feel free to reach out.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under Bradley Pierce.
