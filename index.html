@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Healthcare Solutions Finder</title>
+    <title>Keywords and Solutions Finder</title>
 
     <!-- Tailwind CSS -->
     <link
@@ -235,7 +235,7 @@
       const { Search } = lucide;
 
       // Main application component
-      function HealthcareJamApp() {
+      function KeyWordsAndSolutionsApp() {
         // State for data
         const [keywords, setKeywords] = useState([]);
         const [solutions, setSolutions] = useState([]);
@@ -344,7 +344,7 @@
             <header className="bg-blue-700 text-white p-4 shadow-md">
               <div className="container mx-auto">
                 <h1 className="text-2xl font-bold mb-4">
-                  Healthcare Solutions Finder
+                  Keywords and Solutions Finder
                 </h1>
                 <div className="relative">
                   <input
@@ -818,7 +818,10 @@
       }
 
       // Render the application
-      ReactDOM.render(<HealthcareJamApp />, document.getElementById("root"));
+      ReactDOM.render(
+        <KeyWordsAndSolutionsApp />,
+        document.getElementById("root")
+      );
     </script>
   </body>
 </html>

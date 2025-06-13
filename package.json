@@ -1,0 +1,22 @@
+{
+  "name": "keywords-and-solutions-finder",
+  "version": "1.0.0",
+  "description": "A web application for finding keywords and solutions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "keywords",
+    "solutions",
+    "search",
+    "finder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {}
+}
