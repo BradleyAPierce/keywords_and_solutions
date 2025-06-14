@@ -1,7 +1,7 @@
 ﻿Key Word,Solution,Industry Trends,Key Words / Key Phrases,Qualifying/Discovery Questions
 Accela,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and  HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -12,7 +12,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Accessibility Standards,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -25,7 +25,7 @@ Do you have an ADA Accessibility statement on your website?
 When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
 ADA Compliance,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -38,7 +38,7 @@ Do you have an ADA Accessibility statement on your website?
 When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
 Approval Workflows,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -63,9 +63,22 @@ What are the biggest challenges you face in managing your current fleet of devic
 How do you ensure your devices comply with security and regulatory requirements?
 
 When can we schedule a white boarding session to map out your current processes?"
+Assistive Technology,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
+
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+
+Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
+
+Is your website compatible with Screen Readers?
+
+Can all website features be accessed using a keyboard?
+
+Do you have an ADA Accessibility statement on your website?
+
+When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
 Archive,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -77,7 +90,7 @@ When can we schedule a white boarding session to analysis your document workflow
 "Alternative Text for
 Images",IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -101,7 +114,7 @@ What security settings do you have on your devices?
 When can we schedule a cyber security assessment with our layered security experts?"
 Audit Trail,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -136,7 +149,7 @@ Do you require flexibility in media types?
 When can we schedule a walk through of your print shop with a Industrial Print specialist?"
 Backfile Scanning,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -202,7 +215,7 @@ What drives the decision to use a cooperative contract or to conduct your own RF
 Are you open to considering a proposal leveraging a cooperative contract?_"
 Constituent Services,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -233,7 +246,7 @@ What security settings do you have on your devices?
 When can we schedule a cyber security assessment with our layered security experts?"
 Data Capture,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -317,7 +330,7 @@ Do you require flexibility in media types?
 When can we schedule a walk through of your print shop with a Industrial Print specialist?"
 Digital Mail,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -341,7 +354,7 @@ Do you require flexibility in media types?
 When can we schedule a walk through of your print shop with a Industrial Print specialist?"
 Digitization,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -352,7 +365,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Document Management,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -363,7 +376,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Document Retention,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -372,22 +385,9 @@ What is your process for retrieving your documents when requested?
 How important is quick access to your documents and data for your business operations?
 
 When can we schedule a white boarding session to analysis your document workflows?"
-Assistive Technology,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
-
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
-
-Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
-
-Is your website compatible with Screen Readers?
-
-Can all website features be accessed using a keyboard?
-
-Do you have an ADA Accessibility statement on your website?
-
-When can we schedule a white boarding session to map your current state and identify potential accessibility gaps?"
 Electronic Application,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -440,7 +440,7 @@ What security settings do you have on your devices?
 When can we schedule a cyber security assessment with our layered security experts?"
 Flexible Media Handling,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -543,7 +543,7 @@ When can we schedule a walk-through with a production print specialist?
 Do you have files that we can use to print samples using KM PP devices?"
 Inspections,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -552,7 +552,7 @@ Are you and your constituents able to access the application status online inclu
 When can we schedule a white boarding session to map your current processes and identify potential improvements?"
 Invoice Capture,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -572,7 +572,7 @@ How do you ensure your devices comply with security and regulatory requirements?
 When can we schedule a white boarding session to map out your current processes?"
 Limited Office Space,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -592,9 +592,9 @@ Which cooperative contracts are you most familiar with?
 What drives the decision to use a cooperative contract or to conduct your own RFP?
 
 Are you open to considering a proposal leveraging a cooperative contract?_"
-"Line-of-Business Integration (ERP, HRIS)",IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
+Line-of-Business Integration: ERP and HRIS,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -605,7 +605,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Licensing,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -669,7 +669,7 @@ What security settings do you have on your devices?
 When can we schedule a cyber security assessment with our layered security experts?"
 Offsite Storage,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -680,7 +680,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Paperless Office,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -691,7 +691,7 @@ How important is quick access to your documents and data for your business opera
 When can we schedule a white boarding session to analysis your document workflows?"
 Permitting,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -764,7 +764,7 @@ How do you ensure your devices comply with security and regulatory requirements?
 When can we schedule a white boarding session to map out your current processes?"
 Salesforce Software,"IIM - Licensing, Permitting and Inspections","Digital Transformation: Public sector organizations are increasingly adopting digital solutions to streamline licensing, permitting, and inspection processes, reducing paperwork and improving efficiency.
 
-Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections (Health, Fire), Licensing (Liquor, Agricultural), Permitting (Building, Construction), Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
+Enhanced Transparency and Citizen Engagement: The use of online platforms for licensing and permitting is enhancing transparency and allowing citizens to track the status of their applications in real-time.","Accela, Approval Workflows, Constituent Services, Electronic Application, Inspections- Health and Fire, Licensing- Liquor and Agricultural, Permitting- Building and Construction, Salesforce Software","What is your process for managing approvals for Licensing / Permitting / Inspecting today?
 
 Have you worked with Salesforce with any of your current applications?
 
@@ -773,7 +773,7 @@ Are you and your constituents able to access the application status online inclu
 When can we schedule a white boarding session to map your current processes and identify potential improvements?"
 Screen Reader Compatibility,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -819,7 +819,7 @@ How many checks or negotiable documents do you print on a regular basis?
 When can we schedule a walk through to assess your MICR related printing needs?"
 Section 508,IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -843,7 +843,7 @@ When can we schedule a walk-through with a production print specialist?
 Do you have files that we can use to print samples using KM PP devices?"
 Search and Retrieval,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
@@ -911,7 +911,7 @@ How many checks or negotiable documents do you print on a regular basis?
 When can we schedule a walk through to assess your MICR related printing needs?"
 VPAT (Voluntary Product Accessibility Template),IIM - Accessibility on Demand,"Digital Accessibility Initiatives: Public sector organizations are increasingly prioritizing digital accessibility to ensure that all citizens, including those with disabilities, can access online services and information.
 
-Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT (Voluntary Product Accessibility Template)","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
+Regulatory Compliance: There is a growing emphasis on complying with accessibility regulations, such as the Americans with Disabilities Act (ADA), to ensure equitable access to public services","Accessibility Standards, ADA Compliance, Alternative Text for Images, Assistive Technology, Screen Reader Compatibility, Section 508, VPAT- Voluntary Product Accessibility Template","Is your Website ADA Compliant ? (Needs to be by 2026 for larger organizations, and 2027 for smaller)
 
 Are you aware of the WCAG 2.1 level AA for how to make websites ADA Compliant?
 
@@ -957,7 +957,7 @@ When can we schedule a walk-through with a production print specialist?
 Do you have files that we can use to print samples using KM PP devices?"
 Workflow Automation,IIM - Document Digitization & Records Management,"Increased Adoption of Cloud Solutions: Public sector organizations are increasingly leveraging cloud-based document management systems to enhance accessibility, collaboration, and data security.
 
-Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration (ERP, HRIS), Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
+Enhanced Regulatory Compliance: There is a growing emphasis on ensuring that digitized documents comply with evolving regulatory standards, helping public sector organizations maintain compliance and avoid penalties.","Archive, Audit Trail, Backfile Scanning, Data Capture, Digital Mail, Digitization, Document Management, Document Retention, Invoice Capture, Limited Office Space, Line-of-business integration: ERP and HRIS, Offsite Storage, Paperless Office, Search and Retrieval, Workflow Automation","Do you have physical documents that need to be scanned digitized?
 
 How do you currently manage and store your physical documents?
 
