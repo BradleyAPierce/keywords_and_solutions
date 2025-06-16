@@ -1,505 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keywords Finder</title>
+<head>
+  <meta charset="UTF-8" />
+  <!-- Defines the character encoding for the document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Makes the page responsive for mobile devices -->
+  <title>Keywords Finder</title>
+  <!-- Sets the title that appears in the browser tab -->
 
-    <!-- Tailwind CSS -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-      rel="stylesheet"
-    />
+  <!-- Tailwind CSS - A utility-first CSS framework for quickly building custom designs -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    rel="stylesheet"
+  />
 
-    <!-- React and ReactDOM -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <!-- Application Custom Styles -->
+  <link href="css/main.css" rel="stylesheet" />
 
-    <!-- Babel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.10/babel.min.js"></script>
+  <!-- React and ReactDOM - JavaScript libraries for building user interfaces -->
+  <!-- React is the core library for creating components -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <!-- ReactDOM handles rendering React components to the actual DOM -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
 
-    <!-- PapaParse for CSV parsing -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <!-- Babel - A JavaScript compiler that allows using JSX and modern JavaScript features -->
+  <!-- It converts JSX (React's syntax extension) into regular JavaScript the browser can understand -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.10/babel.min.js"></script>
 
-    <style>
-      /* Loading animation */
-      .spinner {
-        border: 4px solid rgba(0, 0, 0, 0.1);
-        border-radius: 50%;
-        border-top: 4px solid #3498db;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-      }
+  <!-- PapaParse - A library for parsing CSV files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body class="bg-gray-50">
+  <!-- Sets a light gray background for the entire page -->
+  <div id="root"></div>
+  <!-- Container where React will render the application -->
 
-      @keyframes spin {
-        0% {
-          transform: rotate(0deg);
-        }
-        100% {
-          transform: rotate(360deg);
-        }
-      }
+  <script type="text/babel">
+    // Using Babel to transform JSX into JavaScript the browser can understand
+    // The type="text/babel" tells the browser to use Babel to process this script
+    
+    const { useState, useEffect } = React; // Destructuring React hooks for use in components
 
-      /* Sidebar styling */
-      @media (max-width: 768px) {
-        .sidebar {
-          position: fixed;
-          left: -256px;
-          z-index: 50;
-          transition: left 0.3s ease;
-        }
+    // Main App component - The root component that contains all others
+    function App() {
+      // State variables using the useState hook - React's way of managing component state
+      // Each useState call returns a pair: the current state value and a function to update it
+      const [keywords, setKeywords] = useState([]); // Stores all keywords loaded from CSV
+      const [uniqueSolutions, setUniqueSolutions] = useState([]); // Stores unique solution types
+      const [isLoading, setIsLoading] = useState(true); // Tracks if data is still loading
+      const [error, setError] = useState(null); // Stores any error that occurs
+      const [activeKeyword, setActiveKeyword] = useState(null); // Currently selected keyword
+      const [selectedSolution, setSelectedSolution] = useState("all"); // Default to "all"
+      const [activeSolution, setActiveSolution] = useState(null); // Solution being viewed in detail
+      const [searchTerm, setSearchTerm] = useState(""); // Text entered in search box
+      const [sidebarOpen, setSidebarOpen] = useState(false); // Controls sidebar visibility on mobile
 
-        .sidebar.open {
-          left: 0;
-        }
+      // useEffect hook - Runs side effects in functional components
+      // This one loads data when the component mounts (empty dependency array means it runs once)
+      useEffect(() => {
+        async function loadData() {
+          try {
+            setIsLoading(true); // Show loading state
 
-        .overlay {
-          display: none;
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-color: rgba(0, 0, 0, 0.5);
-          z-index: 40;
-        }
-
-        .overlay.open {
-          display: block;
-        }
-
-        .sidebar-toggle {
-          display: block !important;
-        }
-      }
-    </style>
-  </head>
-  <body class="bg-gray-50">
-    <div id="root"></div>
-
-    <script type="text/babel">
-      const { useState, useEffect } = React;
-
-      // Enhanced app component
-      function App() {
-        const [keywords, setKeywords] = useState([]);
-        const [uniqueSolutions, setUniqueSolutions] = useState([]);
-        const [isLoading, setIsLoading] = useState(true);
-        const [error, setError] = useState(null);
-        const [activeKeyword, setActiveKeyword] = useState(null);
-        const [selectedSolutions, setSelectedSolutions] = useState([]);
-        const [activeSolution, setActiveSolution] = useState(null);
-        const [searchTerm, setSearchTerm] = useState("");
-        const [sidebarOpen, setSidebarOpen] = useState(false);
-
-        // Load keywords from CSV
-        useEffect(() => {
-          async function loadData() {
-            try {
-              setIsLoading(true);
-
-              const response = await fetch(
-                "./csv-files/key-words-detailscsv.csv"
-              );
-              if (!response.ok) {
-                throw new Error(`CSV file not found: ${response.status}`);
-              }
-
-              const csvText = await response.text();
-              console.log("CSV loaded, length:", csvText.length);
-
-              const result = Papa.parse(csvText, {
-                header: true,
-                skipEmptyLines: true,
-              });
-
-              const processedData = result.data.map((row, index) => ({
-                id: index,
-                keyWord: row["Key Word"] || "",
-                solution: row["Solution"] || "",
-                industryTrends: row["Industry Trends"] || "",
-                keyPhrases: row["Key Words / Key Phrases"] || "",
-                qualifyingQuestions:
-                  row["Qualifying/Discovery Questions"] || "",
-              }));
-
-              // Extract unique solutions
-              const solutions = [
-                ...new Set(
-                  processedData.map((k) => k.solution).filter(Boolean)
-                ),
-              ];
-
-              setKeywords(processedData);
-              setUniqueSolutions(solutions);
-              console.log("Loaded", processedData.length, "keywords");
-              console.log("Found", solutions.length, "unique solutions");
-              setIsLoading(false);
-            } catch (err) {
-              console.error("Error loading data:", err);
-              setError(err.message);
-              setIsLoading(false);
-            }
-          }
-
-          loadData();
-        }, []);
-
-        // Filter keywords based on search and selected solutions
-        const filteredKeywords = keywords.filter((keyword) => {
-          // Search filter
-          const matchesSearch =
-            !searchTerm ||
-            (keyword.keyWord &&
-              keyword.keyWord
-                .toLowerCase()
-                .includes(searchTerm.toLowerCase())) ||
-            (keyword.solution &&
-              keyword.solution
-                .toLowerCase()
-                .includes(searchTerm.toLowerCase())) ||
-            (keyword.keyPhrases &&
-              keyword.keyPhrases
-                .toLowerCase()
-                .includes(searchTerm.toLowerCase())) ||
-            (keyword.industryTrends &&
-              keyword.industryTrends
-                .toLowerCase()
-                .includes(searchTerm.toLowerCase()));
-
-          // Solution filter
-          const matchesSolution =
-            selectedSolutions.length === 0 ||
-            selectedSolutions.includes(keyword.solution);
-
-          return matchesSearch && matchesSolution;
-        });
-
-        // Handle solution selection
-        const toggleSolution = (solution) => {
-          setSelectedSolutions((prev) => {
-            if (prev.includes(solution)) {
-              // If already selected, unselect it
-              const newSelected = prev.filter((s) => s !== solution);
-              // If we're unselecting the active solution, clear it
-              if (activeSolution === solution) {
-                setActiveSolution(null);
-              }
-              return newSelected;
-            } else {
-              // Select the solution and make it active
-              setActiveSolution(solution);
-              return [...prev, solution];
-            }
-          });
-        };
-
-        // Toggle sidebar on mobile
-        const toggleSidebar = () => {
-          setSidebarOpen((prev) => !prev);
-        };
-
-        // Select all solutions
-        const selectAllSolutions = () => {
-          setSelectedSolutions([...uniqueSolutions]);
-          setActiveSolution(null);
-        };
-
-        // Clear all solutions
-        const clearAllSolutions = () => {
-          setSelectedSolutions([]);
-          setActiveSolution(null);
-        };
-
-        // Show keyword details
-        function KeywordDetails({ keyword, onBack }) {
-          return (
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <button
-                onClick={onBack}
-                className="mb-4 px-3 py-1 bg-gray-200 rounded hover:bg-gray-300 flex items-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 mr-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                Back to Keywords
-              </button>
-
-              <div className="border-l-4 border-blue-500 pl-4 mb-4">
-                <h2 className="text-2xl font-bold">
-                  Solution: {keyword.solution}
-                </h2>
-                <p className="text-blue-600">{keyword.keyWord}</p>
-              </div>
-
-              <div className="space-y-4">
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Industry Trends
-                  </h3>
-                  <p className="text-gray-700 whitespace-pre-line">
-                    {keyword.industryTrends || "No trends available"}
-                  </p>
-                </section>
-
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Key Phrases
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {keyword.keyPhrases ? (
-                      keyword.keyPhrases.split(",").map((phrase, i) => (
-                        <span
-                          key={i}
-                          className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm"
-                        >
-                          {phrase.trim()}
-                        </span>
-                      ))
-                    ) : (
-                      <p>No key phrases available</p>
-                    )}
-                  </div>
-                </section>
-
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Qualifying Questions
-                  </h3>
-                  <div>
-                    {keyword.qualifyingQuestions ? (
-                      <div className="space-y-2">
-                        {keyword.qualifyingQuestions
-                          .split("\n\n")
-                          .filter(Boolean)
-                          .map((q, i) => (
-                            <div
-                              key={i}
-                              className="bg-white p-3 border-l-2 border-blue-300 rounded"
-                            >
-                              {q}
-                            </div>
-                          ))}
-                      </div>
-                    ) : (
-                      <p>No qualifying questions available</p>
-                    )}
-                  </div>
-                </section>
-              </div>
-            </div>
-          );
-        }
-
-        // Show solution details
-        function SolutionDetails({ solution, keywords, onBack }) {
-          // Get the first keyword for this solution
-          const firstKeyword = keywords.length > 0 ? keywords[0] : null;
-
-          if (!firstKeyword) {
-            return (
-              <div className="text-center py-10">
-                <button
-                  onClick={onBack}
-                  className="mb-4 px-3 py-1 bg-gray-200 rounded hover:bg-gray-300 flex items-center"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4 mr-1"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  Back to Keywords
-                </button>
-                <p className="text-gray-500">
-                  No keywords found for this solution.
-                </p>
-              </div>
+            // Fetch the CSV file
+            const response = await fetch(
+              "./csv-files/key-words-detailscsv.csv"
             );
+            if (!response.ok) {
+              throw new Error(`CSV file not found: ${response.status}`);
+            }
+
+            const csvText = await response.text(); // Get the raw CSV text
+            console.log("CSV loaded, length:", csvText.length);
+
+            // Parse CSV into JSON using PapaParse library
+            const result = Papa.parse(csvText, {
+              header: true, // Treat first row as headers
+              skipEmptyLines: true, // Skip empty lines
+            });
+
+            // Process the data into a more usable format
+            const processedData = result.data.map((row, index) => ({
+              id: index, // Create a unique ID for each row
+              keyWord: row["Key Word"] || "",
+              solution: row["Solution"] || "",
+              industryTrends: row["Industry Trends"] || "",
+              keyPhrases: row["Key Words / Key Phrases"] || "",
+              qualifyingQuestions:
+                row["Qualifying/Discovery Questions"] || "",
+            }));
+
+            // Extract unique solutions for filtering
+            const solutions = [
+              ...new Set( // Set automatically removes duplicates
+                processedData.map((k) => k.solution).filter(Boolean) // Get only non-empty solutions
+              ),
+            ];
+
+            // Update state with the processed data
+            setKeywords(processedData);
+            setUniqueSolutions(solutions);
+            console.log("Loaded", processedData.length, "keywords");
+            console.log("Found", solutions.length, "unique solutions");
+            setIsLoading(false); // Hide loading state
+          } catch (err) {
+            console.error("Error loading data:", err);
+            setError(err.message); // Store error message
+            setIsLoading(false); // Hide loading state even if there's an error
           }
+        }
 
-          // Process and deduplicate data
-          // Collect unique industry trends
-          const uniqueTrends = [
-            ...new Set(keywords.map((k) => k.industryTrends).filter(Boolean)),
-          ];
+        loadData(); // Call the function to load data
+      }, []); // Empty dependency array means this effect runs once when component mounts
 
-          // Collect all key phrases (already using Set for uniqueness)
-          const allKeyPhrases = new Set();
-          keywords.forEach((keyword) => {
-            if (keyword.keyPhrases) {
-              keyword.keyPhrases.split(",").forEach((phrase) => {
-                allKeyPhrases.add(phrase.trim());
-              });
-            }
-          });
+      // Filter keywords based on search text and selected solution
+      const filteredKeywords = keywords.filter((keyword) => {
+        // Search filter - check if search term appears in various fields
+        const matchesSearch =
+          !searchTerm || // If no search term, include all
+          (keyword.keyWord &&
+            keyword.keyWord
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase())) ||
+          (keyword.solution &&
+            keyword.solution
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase())) ||
+          (keyword.keyPhrases &&
+            keyword.keyPhrases
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase())) ||
+          (keyword.industryTrends &&
+            keyword.industryTrends
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase()));
 
-          // Process qualifying questions to avoid repetition
-          // Extract all individual questions and deduplicate
-          const individualQuestions = new Set();
-          keywords.forEach((keyword) => {
-            if (keyword.qualifyingQuestions) {
-              keyword.qualifyingQuestions
-                .split("\n\n")
-                .filter(Boolean)
-                .forEach((question) => {
-                  individualQuestions.add(question.trim());
-                });
-            }
-          });
+        // Solution filter - check if keyword's solution matches selected solution
+        const matchesSolution =
+          selectedSolution === "all" || // Show all if "all" is selected
+          keyword.solution === selectedSolution;
 
-          return (
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <button
-                onClick={onBack}
-                className="mb-4 px-3 py-1 bg-gray-200 rounded hover:bg-gray-300 flex items-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 mr-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                Back to Keywords
-              </button>
+        // Include keyword only if it matches both filters
+        return matchesSearch && matchesSolution;
+      });
 
-              <div className="border-l-4 border-blue-500 pl-4 mb-4">
-                <h2 className="text-2xl font-bold">Solution: {solution}</h2>
-                <p className="text-blue-600">{firstKeyword.keyWord}</p>
-              </div>
+      // Select a solution
+      const selectSolution = (solution) => {
+        // Always update the selected solution
+        setSelectedSolution(solution);
+        
+        // Clear any active keyword when changing solutions
+        setActiveKeyword(null);
+        
+        // Set active solution (or clear it if "all" is selected)
+        if (solution !== "all") {
+          setActiveSolution(solution);
+        } else {
+          setActiveSolution(null);
+        }
+      };
 
-              <div className="space-y-4">
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Industry Trends
-                  </h3>
-                  <div className="text-gray-700">
-                    {uniqueTrends.length > 0 ? (
-                      <div className="space-y-2">
-                        {uniqueTrends.map((trend, i) => (
-                          <p key={i} className="whitespace-pre-line">
-                            {trend}
-                          </p>
-                        ))}
-                      </div>
-                    ) : (
-                      <p>No industry trends available</p>
-                    )}
-                  </div>
-                </section>
+      // Toggle sidebar visibility on mobile
+      const toggleSidebar = () => {
+        setSidebarOpen((prev) => !prev);
+      };
 
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Key Phrases
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {allKeyPhrases.size > 0 ? (
-                      Array.from(allKeyPhrases).map((phrase, i) => (
-                        <span
-                          key={i}
-                          className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm"
-                        >
-                          {phrase}
-                        </span>
-                      ))
-                    ) : (
-                      <p>No key phrases available</p>
-                    )}
-                  </div>
-                </section>
+      // Nested component - Shows details for a specific keyword
+      function KeywordDetails({ keyword, onBack }) {
+        return (
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            {/* Removed back button */}
 
-                <section className="bg-gray-50 p-4 rounded">
-                  <h3 className="text-lg font-semibold mb-2 text-blue-700">
-                    Qualifying Questions
-                  </h3>
-                  <div>
-                    {individualQuestions.size > 0 ? (
-                      <div className="space-y-2">
-                        {Array.from(individualQuestions).map((question, i) => (
+            {/* Header with solution and keyword */}
+            <div className="border-l-4 border-blue-500 pl-4 mb-4">
+              <h2 className="text-2xl font-bold">
+                Solution: {keyword.solution}
+              </h2>
+            </div>
+
+            {/* Details sections */}
+            <div className="space-y-4">
+              {/* Industry Trends section */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Industry Trends
+                </h3>
+                <p className="text-gray-700 whitespace-pre-line">
+                  {keyword.industryTrends || "No trends available"}
+                </p>
+              </section>
+
+              {/* Key Phrases section - displayed as tags */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Key Phrases
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {keyword.keyPhrases ? (
+                    keyword.keyPhrases.split(",").map((phrase, i) => (
+                      <span
+                        key={i}
+                        className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm"
+                      >
+                        {phrase.trim()}
+                      </span>
+                    ))
+                  ) : (
+                    <p>No key phrases available</p>
+                  )}
+                </div>
+              </section>
+
+              {/* Qualifying Questions section */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Qualifying Questions
+                </h3>
+                <div>
+                  {keyword.qualifyingQuestions ? (
+                    <div className="space-y-2">
+                      {keyword.qualifyingQuestions
+                        .split("\n\n") // Split by double newlines
+                        .filter(Boolean) // Remove empty entries
+                        .map((q, i) => (
                           <div
                             key={i}
                             className="bg-white p-3 border-l-2 border-blue-300 rounded"
                           >
-                            {question}
+                            {q}
                           </div>
                         ))}
-                      </div>
-                    ) : (
-                      <p>No qualifying questions available</p>
-                    )}
-                  </div>
-                </section>
-
-                <section className="mt-6">
-                  <h3 className="text-lg font-semibold mb-2">
-                    All Keywords for {solution}
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {keywords.map((kw) => (
-                      <span
-                        key={kw.id}
-                        className="bg-white text-gray-800 font-semibold py-1 px-3 border border-gray-300 rounded-full text-sm"
-                      >
-                        {kw.keyWord}
-                      </span>
-                    ))}
-                  </div>
-                </section>
-              </div>
+                    </div>
+                  ) : (
+                    <p>No qualifying questions available</p>
+                  )}
+                </div>
+              </section>
             </div>
-          );
-        }
+          </div>
+        );
+      }
 
-        // Main view
-        if (isLoading) {
-          return (
-            <div className="flex justify-center items-center h-screen">
-              <div className="spinner"></div>
-              <p className="ml-4">Loading keywords...</p>
-            </div>
-          );
-        }
+      // Nested component - Shows details for a specific solution
+      function SolutionDetails({ solution, keywords, onBack }) {
+        // Get the first keyword for this solution to display as an example
+        const firstKeyword = keywords.length > 0 ? keywords[0] : null;
 
-        if (error) {
+        if (!firstKeyword) {
           return (
-            <div className="max-w-2xl mx-auto mt-10 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
-              <h2 className="text-lg font-bold mb-2">Error Loading Data</h2>
-              <p>{error}</p>
-              <p className="mt-2 text-sm">
-                Make sure the CSV file exists at:{" "}
-                <code>./csv-files/key-words-detailscsv.csv</code>
+            <div className="text-center py-10">
+              {/* Removed back button */}
+              <p className="text-gray-500">
+                No keywords found for this solution.
               </p>
             </div>
           );
         }
 
+        // Process and deduplicate data from all keywords for this solution
+        // Collect unique industry trends
+        const uniqueTrends = [
+          ...new Set(keywords.map((k) => k.industryTrends).filter(Boolean)),
+        ];
+
+        // Collect all key phrases (using Set for uniqueness)
+        const allKeyPhrases = new Set();
+        keywords.forEach((keyword) => {
+          if (keyword.keyPhrases) {
+            keyword.keyPhrases.split(",").forEach((phrase) => {
+              allKeyPhrases.add(phrase.trim());
+            });
+          }
+        });
+
+        // Process qualifying questions to avoid repetition
+        const individualQuestions = new Set();
+        keywords.forEach((keyword) => {
+          if (keyword.qualifyingQuestions) {
+            keyword.qualifyingQuestions
+              .split("\n\n")
+              .filter(Boolean)
+              .forEach((question) => {
+                individualQuestions.add(question.trim());
+              });
+          }
+        });
+
         return (
-          <div className="flex flex-col min-h-screen">
-            {/* Header */}
-            <header className="bg-blue-700 text-white p-4">
-              <div className="container mx-auto flex items-center">
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            {/* Removed back button */}
+
+            {/* Header with solution and example keyword */}
+            <div className="border-l-4 border-blue-500 pl-4 mb-4">
+              <h2 className="text-2xl font-bold">Solution: {solution}</h2>
+            </div>
+
+            {/* Details sections - combined from all keywords */}
+            <div className="space-y-4">
+              {/* Industry Trends section */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Industry Trends
+                </h3>
+                <div className="text-gray-700">
+                  {uniqueTrends.length > 0 ? (
+                    <div className="space-y-2">
+                      {uniqueTrends.map((trend, i) => (
+                        <p key={i} className="whitespace-pre-line">
+                          {trend}
+                        </p>
+                      ))}
+                    </div>
+                  ) : (
+                    <p>No industry trends available</p>
+                  )}
+                </div>
+              </section>
+
+              {/* Key Phrases section - displayed as tags */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Key Phrases
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {allKeyPhrases.size > 0 ? (
+                    Array.from(allKeyPhrases).map((phrase, i) => (
+                      <span
+                        key={i}
+                        className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm"
+                      >
+                        {phrase}
+                      </span>
+                    ))
+                  ) : (
+                    <p>No key phrases available</p>
+                  )}
+                </div>
+              </section>
+
+              {/* Qualifying Questions section */}
+              <section className="bg-gray-50 p-4 rounded">
+                <h3 className="text-lg font-semibold mb-2 text-blue-700">
+                  Qualifying Questions
+                </h3>
+                <div>
+                  {individualQuestions.size > 0 ? (
+                    <div className="space-y-2">
+                      {Array.from(individualQuestions).map((question, i) => (
+                        <div
+                          key={i}
+                          className="bg-white p-3 border-l-2 border-blue-300 rounded"
+                        >
+                          {question}
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p>No qualifying questions available</p>
+                  )}
+                </div>
+              </section>
+
+              {/* List of all keywords for this solution */}
+              <section className="mt-6">
+                <h3 className="text-lg font-semibold mb-2">
+                  All Keywords for {solution}
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {keywords.map((kw) => (
+                    <span
+                      key={kw.id}
+                      className="bg-white text-gray-800 font-semibold py-1 px-3 border border-gray-300 rounded-full text-sm"
+                    >
+                      {kw.keyWord}
+                    </span>
+                  ))}
+                </div>
+              </section>
+            </div>
+          </div>
+        );
+      }
+
+      // Conditional rendering based on app state
+      if (isLoading) {
+        // Show loading spinner when data is loading
+        return (
+          <div className="flex justify-center items-center h-screen">
+            <div className="spinner"></div>
+            <p className="ml-4">Loading keywords...</p>
+          </div>
+        );
+      }
+
+      if (error) {
+        // Show error message if data loading failed
+        return (
+          <div className="max-w-2xl mx-auto mt-10 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+            <h2 className="text-lg font-bold mb-2">Error Loading Data</h2>
+            <p>{error}</p>
+            <p className="mt-2 text-sm">
+              Make sure the CSV file exists at:{" "}
+              <code>./csv-files/key-words-detailscsv.csv</code>
+            </p>
+          </div>
+        );
+      }
+
+      // Main application UI
+      return (
+        <div className="flex justify-center w-full bg-gray-50">
+          {/* Wrapper div to constrain width and center content */}
+          <div className="flex flex-col min-h-screen max-w-5xl w-full">
+            {/* Header with search bar */}
+            <header className="bg-blue-700 text-white p-4 w-full">
+              <div className="flex items-center">
+                {/* Mobile menu toggle button */}
                 <button
                   className="sidebar-toggle mr-3 p-1 rounded hover:bg-blue-600 focus:outline-none hidden"
                   onClick={toggleSidebar}
@@ -522,7 +438,8 @@
                 <h1 className="text-2xl font-bold">Keywords Finder</h1>
               </div>
 
-              <div className="container mx-auto mt-3">
+              {/* Search input */}
+              <div className="mt-3">
                 <div className="relative">
                   <input
                     type="text"
@@ -531,6 +448,7 @@
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                   />
+                  {/* Search icon */}
                   <svg
                     className="absolute left-3 top-3 text-gray-500"
                     width="16"
@@ -549,15 +467,15 @@
               </div>
             </header>
 
-            {/* Mobile overlay */}
+            {/* Mobile overlay - darkens the screen when sidebar is open */}
             <div
               className={`overlay ${sidebarOpen ? "open" : ""}`}
               onClick={() => setSidebarOpen(false)}
             ></div>
 
-            {/* Main content */}
+            {/* Main content container */}
             <div className="flex flex-1 overflow-hidden">
-              {/* Sidebar */}
+              {/* Sidebar with solution filters */}
               <aside
                 className={`sidebar bg-white w-64 p-4 border-r border-gray-200 overflow-y-auto ${
                   sidebarOpen ? "open" : ""
@@ -567,30 +485,37 @@
                   <h2 className="text-lg font-semibold mb-2">
                     Filter by Solutions
                   </h2>
-                  <div className="flex space-x-2 mb-3">
-                    <button
-                      className="px-3 py-1 bg-blue-600 text-white rounded text-sm"
-                      onClick={selectAllSolutions}
-                    >
-                      Select All
-                    </button>
-                    <button
-                      className="px-3 py-1 bg-gray-200 rounded text-sm"
-                      onClick={clearAllSolutions}
-                    >
-                      Clear All
-                    </button>
-                  </div>
                 </div>
 
+                {/* All Tags option and solution radio buttons */}
                 <div className="space-y-2">
+                  {/* All Keywords option (previously "All Tags") */}
+                  <div className="flex items-center">
+                    <input
+                      type="radio"
+                      id="solution-all"
+                      name="solution"
+                      checked={selectedSolution === "all"}
+                      onChange={() => selectSolution("all")}
+                      className="mr-2"
+                    />
+                    <label htmlFor="solution-all" className="text-sm font-medium">
+                      All Keywords
+                    </label>
+                  </div>
+                  
+                  {/* Separator */}
+                  <hr className="my-2" />
+                  
+                  {/* Individual solutions */}
                   {uniqueSolutions.map((solution, index) => (
                     <div key={index} className="flex items-center">
                       <input
-                        type="checkbox"
+                        type="radio"
                         id={`solution-${index}`}
-                        checked={selectedSolutions.includes(solution)}
-                        onChange={() => toggleSolution(solution)}
+                        name="solution"
+                        checked={selectedSolution === solution}
+                        onChange={() => selectSolution(solution)}
                         className="mr-2"
                       />
                       <label htmlFor={`solution-${index}`} className="text-sm">
@@ -601,14 +526,16 @@
                 </div>
               </aside>
 
-              {/* Main content area */}
+              {/* Main content area - conditionally renders different views */}
               <main className="flex-1 p-6 overflow-y-auto">
                 {activeKeyword ? (
+                  // Showing details for a selected keyword
                   <KeywordDetails
                     keyword={activeKeyword}
                     onBack={() => setActiveKeyword(null)}
                   />
                 ) : activeSolution ? (
+                  // Showing details for a selected solution
                   <SolutionDetails
                     solution={activeSolution}
                     keywords={keywords.filter(
@@ -617,17 +544,18 @@
                     onBack={() => setActiveSolution(null)}
                   />
                 ) : (
+                  // Showing the main list of keywords
                   <div>
                     <h2 className="text-xl font-semibold mb-4">
                       Keywords ({filteredKeywords.length})
                     </h2>
 
-                    {/* Only display the pills, nothing else */}
-                    <div className="flex flex-wrap gap-3">
+                    {/* Keywords displayed as clickable pills */}
+                    <div className="flex flex-wrap gap-1.5 max-w-full">
                       {filteredKeywords.map((keyword) => (
                         <button
                           key={keyword.id}
-                          className="bg-white hover:bg-blue-50 text-gray-800 font-semibold py-2 px-4 border border-gray-300 rounded-full shadow-sm"
+                          className="bg-white hover:bg-blue-50 text-gray-800 text-xs py-1 px-2 border border-gray-300 rounded-full shadow-sm mb-1"
                           onClick={() => setActiveKeyword(keyword)}
                         >
                           {keyword.keyWord}
@@ -635,6 +563,7 @@
                       ))}
                     </div>
 
+                    {/* No results message */}
                     {filteredKeywords.length === 0 && (
                       <div className="text-center py-10 text-gray-500">
                         No keywords match your search criteria
@@ -645,11 +574,13 @@
               </main>
             </div>
           </div>
-        );
-      }
+        </div>
+      );
+    }
 
-      // Render the app
-      ReactDOM.render(<App />, document.getElementById("root"));
-    </script>
-  </body>
+    // Initialize the React application by rendering the App component into the DOM
+    ReactDOM.render(<App />, document.getElementById("root"));
+  </script>
+</body>
 </html>
+
